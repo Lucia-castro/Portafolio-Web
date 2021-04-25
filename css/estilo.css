@@ -5,14 +5,14 @@ body{ margin: 0 auto;}
 h1,h2,h3,h4,h5,h6,p,figure {margin: 0;}
 
 aside#menu-responsive{
-    width: 300px;
+    width: 290px;
     height: 100%;
     display: none;
     margin: 0;
     float: none;
     position: fixed;
     top: 0;
-    left: -300px;
+    left: -290px;
     z-index:99998;
     background: #364765; 
  }
@@ -759,6 +759,7 @@ footer article nav a{
 }
 
 @media only screen and (max-width: 799px){
+    aside#menu-responsive { display: block; }
     header article figure { margin: 13px auto; float: none; }
     main section#perfil article { height: 1035px; }
     main section#perfil article figure#foto-perfil { height: 394px; padding: 107px 0px 68px 0px; float: none; }
@@ -772,6 +773,7 @@ footer article nav a{
 }
 
 @media only screen and (max-width: 599px){
+    aside#menu-responsive { display: block; }
     main section#banner article h2 { width: 85%; margin: 0 auto; }
     main section#servicios article nav a { width: 326px; margin: 0 auto 68px;}
     main section#portafolio { height: 500px; }
@@ -784,10 +786,12 @@ footer article nav a{
 }
 
 @media only screen and (max-width: 499px){
+    aside#menu-responsive { display: block; }
  
 }
 
 @media only screen and (max-width: 399px){
+    aside#menu-responsive { display: block; }
 
 }
 
