@@ -725,9 +725,9 @@ footer article nav a{
     header article { width: 85%; height: auto; }
     header article figure { margin: 13px auto; float: none; }
     header article nav#menu { display: none; }
-    main section#perfil article { width: 85%; height: 1076px; }
+    main section#perfil article { width: 85%; height: auto; }
     main section#perfil article figure#foto-perfil { float: none; padding: 100px 0 68px 0; }
-    main section#perfil article figure#texto-perfil { width: 501px; height: 358px; padding: 0px 0 100px; float: none; }
+    main section#perfil article figure#texto-perfil { width: 100%; height: auto; padding: 0px 0 100px; float: none; }
     main section#perfil article figure#texto-perfil h3 { text-align: center; }
     main section#perfil article figure#texto-perfil h4 { text-align: center; }
     main section#perfil article figure#texto-perfil p { text-align: center; }
@@ -747,10 +747,8 @@ footer article nav a{
 
 @media only screen and (max-width: 899px){
     aside#menu-responsive { display: block; }
-    main section#perfil article { height: 1033px; }
     main section#perfil article figure#foto-perfil { width: 350px; height: 394px; }
     main section#perfil article figure#foto-perfil img { width: 350px; height: auto; }
-    main section#perfil article figure#texto-perfil { width: 401px; height: auto; }
     main section#perfil article figure#texto-perfil h3 {  font-size: 2em; padding: 0px 0 25px 0; }
     main section#perfil article figure#texto-perfil h4 {  font-size: 1.28em; padding: 0px 0 25px 0; }
     main section#perfil article figure#texto-perfil p {  font-size: 0.9em; padding: 0px 0 25px 0; }
@@ -759,7 +757,7 @@ footer article nav a{
     main section#portafolio article#img-centro { height: 450px; }
     main section#portafolio article#img-centro h3 { font-size: 2em; padding: 170px 0 28px 0; }
     main section#portafolio article#img-derecha { height: 450px; }
-    main section#contactame article { width: 85%; height: 257px;}
+    main section#contactame article { height: 257px;}
 }
 
 @media only screen and (max-width: 799px){
@@ -772,7 +770,6 @@ footer article nav a{
 @media only screen and (max-width: 599px){
     aside#menu-responsive { display: block; }
     main section#banner article h2 { width: 85%; margin: 0 auto; }
-    main section#servicios article nav a { width: 100%; margin: 0 auto 68px;}
     main section#portafolio { height: 500px; }
     main section#portafolio article#img-izquierda { display: none; }
     main section#portafolio article#img-centro { width: 100%; height: 500px; }
@@ -789,11 +786,9 @@ footer article nav a{
 
 @media only screen and (max-width: 399px){
     aside#menu-responsive { display: block; }
-    main section#perfil article { height: 1050px; }
     main section#perfil article figure#foto-perfil { width: 320px; height: 360px; padding: 90px 0px 68px 0px; }
     main section#perfil article figure#foto-perfil img { width: 320px; }
     main section#contactame article p { font-size: 1.34em; }
-    main section#perfil article figure#texto-perfil { width: 320px; padding: 0px 0px 88px 0px; float: none; }
 }
 
 
