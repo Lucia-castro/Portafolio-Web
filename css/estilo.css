@@ -772,7 +772,7 @@ footer article nav a{
 @media only screen and (max-width: 599px){
     aside#menu-responsive { display: block; }
     main section#banner article h2 { width: 85%; margin: 0 auto; }
-    main section#servicios article nav a { width: 326px; margin: 0 auto 68px;}
+    main section#servicios article nav a { width: 100%; margin: 0 auto 68px;}
     main section#portafolio { height: 500px; }
     main section#portafolio article#img-izquierda { display: none; }
     main section#portafolio article#img-centro { width: 100%; height: 500px; }
