@@ -789,6 +789,7 @@ footer article nav a{
 
 @media only screen and (max-width: 399px){
     aside#menu-responsive { display: block; }
+    main section#perfil article { height: 1050px; }
     main section#perfil article figure#foto-perfil { width: 320px; height: 360px; padding: 90px 0px 68px 0px; }
     main section#perfil article figure#foto-perfil img { width: 320px; }
     main section#contactame article p { font-size: 1.34em; }
