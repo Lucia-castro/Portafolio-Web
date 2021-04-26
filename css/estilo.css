@@ -722,35 +722,38 @@ footer article nav a{
 @media only screen and (max-width: 1199px){
     aside#menu-responsive { display: block; }
     aside#menu-responsive a#abrir { top: 16px;}
-    header article { width: 80%; height: auto; }
+    header article { width: 85%; height: auto; }
     header article figure { margin: 13px auto; float: none; }
     header article nav#menu { display: none; }
-    main section#perfil article { width: 80%; }
-    main section#perfil article figure#texto-perfil { width: 501px; height: 358px; padding: 146px 0; }
-    main section#servicios article { width: 80%; }
+    main section#perfil article { width: 85%; height: 1076px; }
+    main section#perfil article figure#foto-perfil { float: none; padding: 100px 0 68px 0; }
+    main section#perfil article figure#texto-perfil { width: 501px; height: 358px; padding: 0px 0 100px; float: none; }
+    main section#perfil article figure#texto-perfil h3 { text-align: center; }
+    main section#perfil article figure#texto-perfil h4 { text-align: center; }
+    main section#perfil article figure#texto-perfil p { text-align: center; }
+    main section#perfil article figure#texto-perfil a { margin: 0 auto; }
+    main section#servicios article { width: 85%; height: 1035px; }
+    main section#servicios article h3 { padding: 100px 0 68px 0; }
+    main section#servicios article nav { width: 100%; }
+    main section#servicios article nav a { width: 100%; margin: 0px 0px 68px 0px; float: none; }
     main section#portafolio { height: 550px;}
     main section#portafolio article#img-izquierda { height: 550px; }
     main section#portafolio article#img-centro { height: 550px; }
     main section#portafolio article#img-centro h3 { padding: 230px 0 28px 0; }
     main section#portafolio article#img-derecha { height: 550px; }
-    main section#contactame article { width: 80%; }
+    main section#contactame article { width: 85%; }
     main section#contactame article p { font-size: 2em; }
 }
 
 @media only screen and (max-width: 899px){
     aside#menu-responsive { display: block; }
-    header article { width: 85%; }
-    main section#perfil article { width: 85%; }
-    main section#perfil article figure#foto-perfil { width: 350px; height: auto; padding: 128px 0; }
+    main section#perfil article { height: 1033px; }
+    main section#perfil article figure#foto-perfil { width: 350px; height: 394px; }
     main section#perfil article figure#foto-perfil img { width: 350px; height: auto; }
-    main section#perfil article figure#texto-perfil { width: 345px; height: auto; padding: 135px 0; }
-    main section#perfil article figure#texto-perfil h3 { text-align: center; font-size: 2em; padding: 0px 0 20px 0; }
-    main section#perfil article figure#texto-perfil h4 { text-align: center; font-size: 1.28em; padding: 0px 0 20px 0; }
-    main section#perfil article figure#texto-perfil p { text-align: center; font-size: 0.9em; padding: 0px 0 20px 0; }
-    main section#perfil article figure#texto-perfil a { margin: 0 auto; }
-    main section#servicios article { width: 85%; }
-    main section#servicios article nav { width: 725px; }
-    main section#servicios article nav a { margin: 0px 18px 0px 18px; }
+    main section#perfil article figure#texto-perfil { width: 401px; height: auto; }
+    main section#perfil article figure#texto-perfil h3 {  font-size: 2em; padding: 0px 0 25px 0; }
+    main section#perfil article figure#texto-perfil h4 {  font-size: 1.28em; padding: 0px 0 25px 0; }
+    main section#perfil article figure#texto-perfil p {  font-size: 0.9em; padding: 0px 0 25px 0; }
     main section#portafolio { height: 450px }
     main section#portafolio article#img-izquierda { height: 450px; }
     main section#portafolio article#img-centro { height: 450px; }
@@ -761,12 +764,6 @@ footer article nav a{
 
 @media only screen and (max-width: 799px){
     aside#menu-responsive { display: block; }
-    main section#perfil article { height: 1035px; }
-    main section#perfil article figure#foto-perfil { height: 394px; padding: 107px 0px 68px 0px; float: none; }
-    main section#perfil article figure#texto-perfil { width: 400px; padding: 0px 0px 110px 0px; float: none; }
-    main section#servicios article { height: 1035px; }
-    main section#servicios article nav { width: 100%; }
-    main section#servicios article nav a { width: 100%; margin: 0px 0px 68px 0px; float: none; }
     main section#portafolio article#img-izquierda { width: 25%; }
     main section#portafolio article#img-centro { width: 50%; }
     main section#portafolio article#img-derecha { width: 25%; }
